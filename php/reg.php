@@ -12,6 +12,9 @@ if (!preg_match('/^[\w\x80-\xff]{3,15}$/', $username)){
 if (strlen($tel) < 11){
 	exit('错误：电话少于11位。<a href="javascript:history.back(-1)">返回</a>');
 }
+if (strlen($tel) > 11){
+	exit('错误：电话多于11位。<a href="javascript:history.back(-1)">返回</a>');
+}
 
 include 'conn.php';
 //检查用户名是否存在
