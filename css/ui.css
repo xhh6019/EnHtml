@@ -1,6 +1,20 @@
 /* CSS Document */
-#id_main {
+#id_main{
+}
+#id_title_div{
+}
+#id_navigation_main{
+}
+#id_switchimg_main{
 
+}
+#id_register_main{
+}
+#id_ditials_main{
+}
+#id_otherinfo_main{
+}
+.ditials_item{
 }
 #id_title_img{
 height:50px;
@@ -8,7 +22,12 @@ height:50px;
 #id_sologan_text{
 font-size:16px;
 }
-
+#id_register_form{
+border:1px;
+}
+#id_swanregister td{
+vertical-align:top;
+}
 .navigation ul
 {
 list-style-type:none;
@@ -34,4 +53,18 @@ text-transform:uppercase;
 .navigation a:hover,a:active
 {
 background-color:#7A991A;
+}
+.register fieldset{
+width: 520px;
+}
+.register legend{
+font-weight: bold;
+font-size: 14px
+}
+.ditials_item img{
+width:100px;
+height:100px;
+}
+.otherinfo a{
+color:#000000;
 }
