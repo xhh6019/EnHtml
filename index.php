@@ -69,8 +69,8 @@
 							<a class="ditials_item" href="#" >
 							第<?php echo $i;?>项目的文字描述
 							<br />
-							<img src="img/<?php echo $i;?>.jpg" /></a></
-							<td><?php } ?>
+							<img src="img/<?php echo $i;?>.jpg" /></a>
+							</td><?php } ?>
 				
 				</tr>
 			</table>
