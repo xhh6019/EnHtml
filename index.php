@@ -21,10 +21,7 @@
 					<li><a href="#为什么选择斯图亚特">为什么选择斯图亚特</a></li>
 					<li><a href="#课程体验">课程体验</a></li>
 					<li><a href="#学员风采">学员风采</a></li>
-					<li><a href="#会员优惠">会员优惠</a></li>
-					<span>
-						<li><a href="#about">会员注册</a></li>
-				
+					<li><a href="#会员优惠">会员优惠</a></li>		
 				</ul>
 			</div>
 
@@ -46,7 +43,7 @@
 										id="username" name="username" type="text" class="input" />
 								</p>
 								<p>
-									<label for="password" class="label">手机：</label> <input id="tel"
+									<label for="tel" class="label">手机：</label> <input id="tel"
 										name="tel" type="text" class="input" />
 								</p>
 								<p>
@@ -69,9 +66,10 @@
 	  for($i=0;$i<5;$i++){?>
 					<td>
 						<div class="ditials_item">
-							第
-							<?php echo $i;?>
-							项 <img src="img/<?php echo $i;?>.jpg" /></
+							<a class="ditials_item" href="#" >
+							第<?php echo $i;?>项目的文字描述
+							<br />
+							<img src="img/<?php echo $i;?>.jpg" /></a></
 							<td><?php } ?>
 				
 				</tr>

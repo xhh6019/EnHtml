@@ -24,7 +24,7 @@ if (mysql_fetch_array($check_query)){
 $regdate = time();
 $sql = "insert into user(username,tel,email,regdate) values('$username','$tel','$email','$regdate')";
 if (mysql_query($sql)){
-	exit('注册成功！我们会尽快联系你！！！ 点击返回<a href="../index.html">登陆</a>');
+	exit('注册成功！我们会尽快联系你！！！ 点击<a href="../index.php">返回</a>');
 }else {
 	echo '添加失败'.mysql_error().'<br>';
 	echo ('点击返回<a href="javascript:history.back(-1)">返回</a>');

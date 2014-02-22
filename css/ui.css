@@ -43,28 +43,49 @@ display:inline;
 .navigation a:link,a:visited
 {
 font-weight:bold;
-color:#FFFFFF;
+color:#ffffff;
 background-color:#98bf21;
 text-align:center;
 padding:6px;
 text-decoration:none;
 text-transform:uppercase;
 }
-.navigation a:hover,a:active
+.navigation a:visited
+{
+font-weight:bold;
+color:#ffffff;
+background-color:#98bf21;
+text-align:center;
+padding:6px;
+text-decoration:none;
+text-transform:uppercase;
+}
+.navigation a:hover
 {
 background-color:#7A991A;
 }
-.register fieldset{
-width: 520px;
-}
-.register legend{
-font-weight: bold;
-font-size: 14px
+.navigation a:active
+{
+background-color:#7A991A;
 }
 .ditials_item img{
 width:100px;
 height:100px;
 }
-.otherinfo a{
+.otherinfo a:link,a:visited
+{
+color:#000000;
+text-align:center;
+}
+.otherinfo a:hover,a:active{
+
+}
+.ditials_item a:link,a:visited{
 color:#000000;
 }
+.ditials_item{
+text-align:center;
+}
+.ditials_item a:hover,a:active{
+}
+

@@ -26,7 +26,7 @@
      if ($page_id == "" ){
            $page_id=1;
      }
-     $page_size= "7";
+     $page_size= "10";
      $page_num=ceil($num/$page_size); //获取总页数
      echo "共有" .$num."条记录！" ;
      echo "每页" .$page_size."条记录！<br>";
