@@ -6,7 +6,6 @@
 #id_navigation_main{
 }
 #id_switchimg_main{
-
 }
 #id_register_main{
 }
@@ -108,19 +107,37 @@ position:relative;
 .focus img {
 border:0;
 }
-.focus ul {
-height:600px;
+.focus_ul {
+height:800px;
 position:absolute;
 }
-.focus ul li {
+.focus_ul {
+list-style:none;
 float:left;
 width:800px;
 height:600px;
 overflow:hidden;
-position:relative;
+list-style:none; 
+margin:0px; 
+padding:0px;
 background:#000;
 }
-.focus ul li div {
+.focus_li{
+list-style:none;
+float:left;
+width:800px;
+height:600px;
+overflow:hidden;
+list-style:none; 
+margin:0px; 
+padding:0px;
+background:#000;
+}
+.focus_ul {
+position:absolute;
+overflow:hidden;
+}
+.focus div {
 position:absolute;
 overflow:hidden;
 }

@@ -34,16 +34,16 @@
 
 			<table class="swanregister" id="id_swanregister">
 				<tr>
-					<td>
+					<td >
 						<div class="switchimg" id="id_switchimg_main">
 							<div class="focus" id="focus001">
-								<ul>
-									<li><a href="#" target="_blank"><img src="img/1.jpg" alt="1" /></a></li>
-									<li><a href="#" target="_blank"><img src="img/04.jpg" alt="2" /></a></li>
-									<li><a href="#" target="_blank"><img src="img/02.jpg" alt="3" /></a></li>
-									<li><a href="#" target="_blank"><img src="img/03.jpg" alt="4" /></a></li>
-									<li><a href="#" target="_blank"><img src="img/1.jpg" alt="5" /></a></li>
-									<li><a href="#" target="_blank"><img src="img/1.jpg" alt="6" /></a></li>
+								<ul class="focus_ul">
+									<li class="focus_li"><a href="#" target="_blank"><img src="img/1.jpg" alt="1" /></a></li>
+									<li class="focus_li"><a href="#" target="_blank"><img src="img/04.jpg" alt="2" /></a></li>
+									<li class="focus_li"><a href="#" target="_blank"><img src="img/02.jpg" alt="3" /></a></li>
+									<li class="focus_li"><a href="#" target="_blank"><img src="img/03.jpg" alt="4" /></a></li>
+									<li class="focus_li"><a href="#" target="_blank"><img src="img/1.jpg" alt="5" /></a></li>
+									<li class="focus_li"><a href="#" target="_blank"><img src="img/1.jpg" alt="6" /></a></li>
 								</ul>
 							</div>
 						</div>
