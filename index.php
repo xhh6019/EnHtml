@@ -3,7 +3,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <link href="css/ui.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="jss/jquery.min.js"></script>
 <script src="jss/reg.js" type="text/javascript"></script>
+<script type="text/javascript" src="jss/sl.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	  	$.focus("#focus001");
+	});
+</script>
 <title>斯图亚特英语</title>
 </head>
 <body>
@@ -29,9 +36,16 @@
 				<tr>
 					<td>
 						<div class="switchimg" id="id_switchimg_main">
-							<a href="index.php"> <img src="img/0.jpg" width="500px"
-								height="400px" />
-							</a>
+							<div class="focus" id="focus001">
+								<ul>
+									<li><a href="#" target="_blank"><img src="img/1.jpg" alt="1" /></a></li>
+									<li><a href="#" target="_blank"><img src="img/1.jpg" alt="2" /></a></li>
+									<li><a href="#" target="_blank"><img src="img/1.jpg" alt="3" /></a></li>
+									<li><a href="#" target="_blank"><img src="img/1.jpg" alt="4" /></a></li>
+									<li><a href="#" target="_blank"><img src="img/1.jpg" alt="5" /></a></li>
+									<li><a href="#" target="_blank"><img src="img/1.jpg" alt="6" /></a></li>
+								</ul>
+							</div>
 						</div>
 					</td>
 					<td>

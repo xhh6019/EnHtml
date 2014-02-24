@@ -99,4 +99,67 @@ text-align:center;
 }
 .ditials_item a:active{
 }
+.focus {
+width:600px;
+height:480px;
+overflow:hidden;
+position:relative;
+}
+.focus img {
+border:0;
+}
+.focus ul {
+height:480px;
+position:absolute;
+}
+.focus ul li {
+float:left;
+width:600px;
+height:480px;
+overflow:hidden;
+position:relative;
+background:#000;
+}
+.focus ul li div {
+position:absolute;
+overflow:hidden;
+}
+.focus .btnBg {
+position:absolute;
+width:600px;
+height:20px;
+left:0;
+bottom:0;
+background:#000;
+display:none;
+}
+.focus .btn {
+position:absolute;
+width:600px;
+height:23px;
+padding:0px 8px;
+right:0;
+bottom:6px;
+text-align:right;
+overflow:hidden;
+}
+.focus .btn span{
+display:inline-block;
+_display:inline;
+_zoom:1;
+width:21px;
+height:21px;
+line-height:21px;
+text-align:center;
+_font-size:0;
+margin-left:5px;
+cursor:pointer;
+background:#333;
+color:#fff;
+}
+.focus .btn span.on {
+background:#000;
+color:#fff;
+border:1px solid #fff;
+}
 
