@@ -10,13 +10,20 @@ function InputCheck(RegForm){
 		alert("电话不可为空");
 		RegForm.tel.focus();
 		return false;
-	}
+	}	
 	
 	if (isNaN(RegForm.tel.value)){
 		alert("电话只能为数字");
 		RegForm.tel.focus();
 		return false;
 	}
+	
+	if (RegForm.tel.value.length < 11 || RegForm.tel.value.length > 11){
+		alert("手机号码只能为11位");
+		RegForm.tel.focus();
+		return false;
+	}
+	
 	if (RegForm.email.value==""){
 		alert("邮箱不可为空");
 		RegForm.email.focus();
