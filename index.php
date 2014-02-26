@@ -57,11 +57,11 @@
 										id="username" name="username" type="text" class="input" />
 								</p>
 								<p>
-									<label for="tel" class="label">手机：</label> <input id="tel"
+									<label for="tel" class="label"> 手  机 ：</label> <input id="tel"
 										name="tel" type="text" class="input" />
 								</p>
 								<p>
-									<label for="email" class="label">邮箱：</label> <input id="email"
+									<label for="email" class="label"> 邮  箱 ：</label> <input id="email"
 										name="email" type="text" class="input" />
 								</p>
 								<p>
