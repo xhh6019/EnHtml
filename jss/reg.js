@@ -18,7 +18,14 @@ function InputCheck(RegForm){
 		return false;
 	}
 	if (RegForm.email.value==""){
-		alert("邮件不可为空");
+		alert("邮箱不可为空");
+		RegForm.email.focus();
+		return false;
+	}
+	var apos=RegForm.email.value.indexOf("@")
+	var dotpos=RegForm.email.value.lastIndexOf(".")
+	if (apos < 1 || dotpos-apos < 2) {
+		alert("邮箱格式不正确");
 		RegForm.email.focus();
 		return false;
 	}
