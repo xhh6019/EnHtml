@@ -4,6 +4,7 @@ if (!isset($_POST['submit'])){
 }
 $username = $_POST['username'];
 $tel = $_POST['tel'];
+//echo '写入电话：'.$tel;
 $email = $_POST['email'];
 //注册信息判断
 if (!preg_match('/^[\w\x80-\xff]{3,15}$/', $username)){

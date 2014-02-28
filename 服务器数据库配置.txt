@@ -1,0 +1,3 @@
+数据库名称：stytuser
+表名：user
+结构：(username,tel,email,regdate)类型为全部为text。
