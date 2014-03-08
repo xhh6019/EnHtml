@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <link href="../css/ui.css" type="text/css" rel="stylesheet" />
-<title>为什么选择斯图亚特英语</title>
+<title>斯图亚特英语--常见问题</title>
 </head>
 
 <body>
@@ -42,10 +42,10 @@
 						-->
 							<td>
 								<div class="data_content" id="id_data_content">
-									<p>关于斯图亚特</p>
+									<p>常见问题</p>
 									<p>
 										<?php
-										$filename= "../txt/aboutstyt.txt";
+										$filename= "../txt/qa.txt";
 										if (!file_exists ($filename)) {
           									$fp=fopen($filename, "w");
           									fclose($fp);         
@@ -57,26 +57,8 @@
 	 									echo '<p>'.$text.'</p>';
 	 									}
 	 									?>
-									</p>
-									<p>理念</p>
-									<img src="../img/wyytf.png" alt="五位一体教学法" />
-									<p>
+									</p>										
 										<?php
-										$filename= "../txt/linian.txt";
-										if (!file_exists ($filename)) {
-          									$fp=fopen($filename, "w");
-          									fclose($fp);         
-     									}
-     									$fp=fopen($filename, "r");     									
-     									$text=true;
-     									while($text){
-	 									$text=fgets($fp);
-	 									echo '<p>'.$text.'</p>';
-	 									}
-	 									?>
-									</p>
-									
-									<?php
 										$filename= "../txt/getin.txt";
 										if (!file_exists ($filename)) {
           									$fp=fopen($filename, "w");
@@ -88,7 +70,7 @@
 	 									$text=fgets($fp);
 	 									echo '<p>'.$text.'</p>';
 	 									}
-	 									?>	
+	 									?>									
 
 								</div>
 							</td>

@@ -19,16 +19,16 @@
 			<div id="id_title_div">
 				<img id="id_title_img" class="img_title" src="img/styt_logo.jpg" /> <span>
 				<img id="id_title_slogan_img" class="img_title" src="img/logo.jpg" /> 
-					<span> <strong id="id_tel_text" class="tel_text">联系电话：400-***-***</strong>
+				<a href="http://weibo.com/stuartenglish" target="_blank" class="weibobtn" ><img src="img/weibobt.jpg" class="weibobtn_img"/></a>
 			
 			</div>
 			<div class="navigation" id="id_navigation_main">
 				<ul>
 					<li><a href="index.php">首页</a></li>
 					<li><a href="html/whystyt.php">为什么选择斯图亚特</a></li>
-					<li><a href="#课程体验">课程体验</a></li>
-					<li><a href="#学员风采">学员风采</a></li>
-					<li><a href="#会员优惠">会员优惠</a></li>		
+					<li><a href="html/aboutclass.php">精品课程</a></li>
+					<li><a href="html/aboutstudents.php">学员风采</a></li>
+					<li><a href="html/aboutqa.php">常见问题</a></li>		
 				</ul>
 			</div>
 
