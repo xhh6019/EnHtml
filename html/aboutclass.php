@@ -32,30 +32,40 @@
 				<div class="main_whystyt" id="id_main_whystyt">
 					<table class="main_whystyt_table" id="id_main_whystyt_table">
 						<tr>
-						<!--
-							<td>
-								<ul class="content_list">
-									<li><a href="">关于斯图亚特</a></li>
-									<li><a href="2">理念</a></li>
+						
+							<td class="content_list">
+								<ul >
+									<li><a href="#1">兄弟会</a></li>
+									<li><a href="#2">初高中导优班</a></li>
+									<li><a href="#3">四六级全程班</a></li>
+									<li><a href="#4">商务英语强化班</a></li>
+									<li><a href="#5">新概念精品班</a></li>
+									<li><a href="#6">零基础美国口语班</a></li>
+									<li><a href="#7">高端私人定制</a></li>
+									<li><a href="#getin">联系方式</a></li>
 								</ul>
 							</td>
-						-->
+						
 							<td>
 								<div class="data_content" id="id_data_content">
 									<p>精品课程</p>
 									<p>
 										<?php
-										$filename= "../txt/aboutclass.txt";
-										if (!file_exists ($filename)) {
-          									$fp=fopen($filename, "w");
-          									fclose($fp);         
-     									}
-     									$fp=fopen($filename, "r");     									
-     									$text=true;
-     									while($text){
-	 									$text=fgets($fp);
-	 									echo '<p>'.$text.'</p>';
-	 									}
+										for($i=1;$i<8;$i++){
+											echo '<a name="'.$i.'"></a>';
+											$filename= '../txt/aboutclass'.$i.'.txt';
+											if (!file_exists ($filename)) {
+          										$fp=fopen($filename, "w");
+          										fclose($fp);         
+     										}
+     										$fp=fopen($filename, "r");     									
+     										$text=true;
+     										while($text){
+	 										$text=fgets($fp);
+	 										echo '<p>'.$text.'</p>';
+	 										}
+										}
+										
 	 									?>
 									</p>
 									<a name="getin"></a>
