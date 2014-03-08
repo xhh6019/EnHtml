@@ -17,15 +17,15 @@
 	<center>
 		<div class="main" id="id_main">
 			<div id="id_title_div">
-				<img id="id_title_img" class="img_title" src="img/logo.png" /> <span>
-					<strong id="id_sologan_text" class="sologan_text">斯图亚特英语，精英的选择。</strong>
+				<img id="id_title_img" class="img_title" src="img/styt_logo.jpg" /> <span>
+				<img id="id_title_slogan_img" class="img_title" src="img/logo.jpg" /> 
 					<span> <strong id="id_tel_text" class="tel_text">联系电话：400-***-***</strong>
 			
 			</div>
 			<div class="navigation" id="id_navigation_main">
 				<ul>
 					<li><a href="index.php">首页</a></li>
-					<li><a href="#为什么选择斯图亚特">为什么选择斯图亚特</a></li>
+					<li><a href="html/whystyt.php">为什么选择斯图亚特</a></li>
 					<li><a href="#课程体验">课程体验</a></li>
 					<li><a href="#学员风采">学员风采</a></li>
 					<li><a href="#会员优惠">会员优惠</a></li>		

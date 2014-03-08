@@ -17,7 +17,9 @@ text-align:left;
 .ditials_item{
 }
 #id_title_img{
-height:50px;
+}
+#id_title_slogan_img{
+height:200px;
 }
 #id_sologan_text{
 font-size:16px;
