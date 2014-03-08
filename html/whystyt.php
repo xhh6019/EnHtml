@@ -32,17 +32,18 @@
 				<div class="main_whystyt" id="id_main_whystyt">
 					<table class="main_whystyt_table" id="id_main_whystyt_table">
 						<tr>
-						<!--
-							<td>
-								<ul class="whystyt_list">
-									<li><a href="">关于斯图亚特</a></li>
-									<li><a href="2">理念</a></li>
+						
+							<td class="content_list" >
+								<ul >
+									<li><a href="#aboutstyt">关于斯图亚特</a></li>
+									<li><a href="#linian">理念</a></li>
+									<li><a href="#getin">联系方式</a></li>
 								</ul>
 							</td>
-						-->
+						
 							<td>
 								<div class="data_content" id="id_data_content">
-									<p>关于斯图亚特</p>
+									<p name="aboutstyt">关于斯图亚特</p>
 									<p>
 										<?php
 										$filename= "../txt/aboutstyt.txt";
@@ -58,7 +59,7 @@
 	 									}
 	 									?>
 									</p>
-									<p>理念</p>
+									<p name="linian">理念</p>
 									<img src="../img/wyytf.png" alt="五位一体教学法" />
 									<p>
 										<?php
@@ -75,7 +76,7 @@
 	 									}
 	 									?>
 									</p>
-									
+									<a name="getin"></a>
 									<?php
 										$filename= "../txt/getin.txt";
 										if (!file_exists ($filename)) {
@@ -86,7 +87,7 @@
      									$text=true;
      									while($text){
 	 									$text=fgets($fp);
-	 									echo '<p>'.$text.'</p>';
+	 									echo '<p><strong>'.$text.'</strong></p>';
 	 									}
 	 									?>	
 

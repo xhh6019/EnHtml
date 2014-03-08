@@ -34,6 +34,9 @@ border:1px;
 #id_swanregister td{
 vertical-align:top;
 }
+.content_list{
+vertical-align:top;
+}
 .navigation ul{
 list-style-type:none;
 margin:0;

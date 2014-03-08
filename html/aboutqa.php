@@ -34,7 +34,7 @@
 						<tr>
 						<!--
 							<td>
-								<ul class="whystyt_list">
+								<ul class="content_list">
 									<li><a href="">关于斯图亚特</a></li>
 									<li><a href="2">理念</a></li>
 								</ul>
@@ -57,7 +57,8 @@
 	 									echo '<p>'.$text.'</p>';
 	 									}
 	 									?>
-									</p>										
+									</p>		
+									<a name="getin"></a>								
 										<?php
 										$filename= "../txt/getin.txt";
 										if (!file_exists ($filename)) {
@@ -68,7 +69,7 @@
      									$text=true;
      									while($text){
 	 									$text=fgets($fp);
-	 									echo '<p>'.$text.'</p>';
+	 									echo '<p><strong>'.$text.'</strong></p>';
 	 									}
 	 									?>									
 
