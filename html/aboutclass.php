@@ -33,7 +33,7 @@
 					<table class="main_whystyt_table" id="id_main_whystyt_table">
 						<tr>
 						
-							<td class="content_list">
+							<td class="content_list" id="id_content_list">
 								<ul >
 									<li><a href="#1">兄弟会</a></li>
 									<li><a href="#2">初高中导优班</a></li>

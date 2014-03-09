@@ -50,6 +50,7 @@
 					</td>
 					<td>
 						<div class="register" id="id_register_main">
+							<strong>输入信息立刻领取免费试听机会：</strong>
 							<form name="RegForm" method="post" action="php/reg.php"
 								onSubmit="return InputCheck(this)" id="id_register_form">
 								<p>

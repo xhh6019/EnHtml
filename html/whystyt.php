@@ -33,7 +33,7 @@
 					<table class="main_whystyt_table" id="id_main_whystyt_table">
 						<tr>
 						
-							<td class="content_list" >
+							<td class="content_list" id="id_content_list" >
 								<ul >
 									<li><a href="#aboutstyt">关于斯图亚特</a></li>
 									<li><a href="#linian">理念</a></li>

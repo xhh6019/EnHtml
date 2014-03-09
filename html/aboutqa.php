@@ -32,14 +32,6 @@
 				<div class="main_whystyt" id="id_main_whystyt">
 					<table class="main_whystyt_table" id="id_main_whystyt_table">
 						<tr>
-						<!--
-							<td>
-								<ul class="content_list">
-									<li><a href="">关于斯图亚特</a></li>
-									<li><a href="2">理念</a></li>
-								</ul>
-							</td>
-						-->
 							<td>
 								<div class="data_content" id="id_data_content">
 									<p>常见问题</p>
